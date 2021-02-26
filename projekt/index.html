@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <title>Moje Hobby</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="projekt.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet" />
+	<link type="text/css" href="jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+	<script src="jquery-1.7.2.min.js"></script>
+	<script src="jquery-ui.js"></script> 
+    <script src="javascript.js"></script>
+	<script src="jquery.js"></script>
+</head>
+<body onload="dodajAkapit(); odliczanie(); zmienKolor(); pokazKalendarz(); dopiszIleDni(); obliczDni();">
+    <div class="container">
+        <header>
+            <h1 class="tytul">Premier League</h1>
+            <p class="podtytul">Najlepsza piłkarska liga świata</p>
+            <nav class="menu">
+                <ul>
+                    <li><a  href="arsenal.html">Arsenal</a></li>
+                    <li><a  href="chelsea.html">Chelsea</a></li>
+                    <li><a  href="mancity.html">Man. City</a></li>
+                    <li><a  href="manutd.html">Man. United</a></li>
+                    <li><a  href="tottenham.html">Tottenham</a></li>
+                    <li><a  href="liverpool.html">Liverpool</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <section>
+                    <header>
+                        <h2>Czym jest Premier League?</h2>
+                    </header>
+                    <p>
+                        <img id="logo" src="logo.png" alt="logo" /><br><br>
+                        <b>English Premier League</b> (nazywana także <b>Premiership</b>) – najwyższa w hierarchii klasa męskich ligowych rozgrywek piłkarskich w Anglii, będąca jednocześnie najwyższym szczeblem centralnym (I poziom ligowy), utworzona w 1992 roku i zarządzana od samego początku przez FA Premier League. Zmagania w jej ramach toczą się cyklicznie (co sezon od sierpnia do maja) i przeznaczone są dla 20 najlepszych krajowych klubów piłkarskich. Jej triumfator zostaje Mistrzem Anglii, zaś najsłabsze drużyny są relegowane do League Championship (II ligi angielskiej).<br><br>Liga została założona jako FA Premier League 20 lutego 1992 roku po tym jak zespoły Football League First Division zdecydowały stać się niezależne od The Football League powstałej w 1888 roku oraz Football Association. Czerpała ona zyski z praw telewizyjnych. Od tego czasu Premier League jest najchętniej oglądaną ligą sportową na świecie. Są to także najbardziej dochodowe rozgrywki piłkarskie. W sezonie 2007/2008 obroty klubów wyniosły 1,93 miliardów funtów (3,15 miliardów dolarów).<br>Od czasu założenia w rozgrywkach Premier League brały udział 44 kluby.
+                    </p>
+                </section>
+                <section class="kolor">
+                    <header>
+                        <h2>Schemat rozgrywek</h2>
+                    </header>
+                    <p>
+                        W Premier League swoje mecze rozgrywa dwadzieścia zespołów. Podczas sezonu (który trwa od sierpnia do maja) każdy klub gra ze sobą dwukrotnie, raz na stadionie jednego z nich, a raz na stadionie drugiego - daje to 38 meczów dla każdego zespołu i 380 meczów w całym sezonie.<br><br> W soboty większość meczów rozgrywanych jest o godzinie 16:00 czasu CET. Są to mecze nietransmitowane w brytyjskiej telewizji. Czasem mecze sobotnie są rozgrywane o 13:30 i 18:30 ze względu na relację telewizyjną. Podobnie jest z meczami niedzielnymi o 14:30 lub 17:00 czasu CET, czasami są też mecze o godzinie 16:00 kiedy angielska drużyna grała wcześniej w czwartek w europejskich pucharach. Natomiast czasem jeden pojedynek kolejki odbywa się w poniedziałek o 21:00 czasu CET również ze względów telewizyjnych. Od sezonu 2016/2017 zdarza się, że mecz inaugurujący weekendową kolejkę jest rozgrywany już w piątek o 21:00 czasu CET. Zwycięska drużyna otrzymuje trzy punkty, za remis dostaje się jeden, natomiast drużyna pokonana nie dostaje żadnego punktu. Kluby są klasyfikowane w tabeli po liczbie punktów, następnie po różnicy goli (bramek zdobytych i straconych). Na końcu sezonu klub, który zgromadził najwięcej punktów, zostaje mistrzem ligi.
+                    </p>
+                </section>
+                <section>
+                    <header>
+                        <h2>Mistrzowie Premier League</h2>
+                    </header>
+                    <p>
+                        W dotychczasowej historii Premier League mistrzem kraju zostało 6 drużyn.<br>
+                        Najwięcej razy puchar wznosił <b>Manchester United</b> - 13 razy.<br>
+                        Druga w kolejności jest londyńska <b>Chelsea</b> - 5 razy.<br>
+                        Podium zamyka <b>Manchester City</b> - 4 triumfy.<br>
+                        Na czwartym miejscu znajduje się <b>Arsenal</b> - 3 triumfy.<br>
+                        Piąte i szóste miejsce zajmują <b>Blackburn Rovers</b> i <b>Leicester City</b> - po 1 triumfie.
+                    </p>
+                    <p id="ls">
+						
+					</p>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <div id="zegar"></div>
+            &copy; Bartłomiej Buklewski
+        </footer>
+    </div>
+</body>
+</html>
